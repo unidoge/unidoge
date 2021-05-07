@@ -1,0 +1,9 @@
+$tokenContract = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+$tokenName = 'UniDoge';
+$tokenChartUrl = 'https://poocoin.app/tokens/'.$tokenContract;
+$tokenBuyUrl = 'https://exchange.pancakeswap.finance/#/swap?outputCurrency='.$tokenContract;
+$bscanUrl = 'https://bscscan.com/address/'.$tokenContract;
+$telegramUrl = 'https://t.me/unidogecoin';
+$facebookUrl  = 'https://www.reddit.com/user/UniDogeCoin';
+$twitterUrl   = 'https://twitter.com/coin_uni';
+$githudUrl    = '#';
