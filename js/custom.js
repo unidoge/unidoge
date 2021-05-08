@@ -1,3 +1,12 @@
+function onSubscribe() {
+    let email = document.querySelector('input[type=email]').value
+    if (email.length > 0) {
+        $('#subscribeModal').modal('show')
+    } else {
+        alert('Please input email')
+    }
+}
+
 var w = 0;
 $(function() {
  "use strict";

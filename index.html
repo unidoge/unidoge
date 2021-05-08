@@ -384,7 +384,21 @@
                                 <div class="form-group">
                                     <label>Subscribe to our Newsleter</label>
                                     <input type="email" class="form-control" placeholder="Enter your email Address">
-                                    <input type="submit" name="submit" value="Subscribe" class="submit">
+                                    <button type="button" class="submit" onclick='onSubscribe()'>
+                                        Subscribe
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <h4 class="modal-body text-primary">Thank you for subscribing!</h4>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -407,7 +421,6 @@
         <script src="js/jquery.listtopie.min.js"></script>
         <script src="js/animation.js"></script>
         <script src="js/custom.js"></script>
-        
     </body>
 
 </html>
