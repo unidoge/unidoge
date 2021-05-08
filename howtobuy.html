@@ -176,6 +176,16 @@
         <script src="js/animation.js"></script>
         <script src="js/custom.js"></script>
         
+        <script>
+            function onSubscribe() {
+                let email = document.querySelector('input[type=email]').value
+                if (email.length > 0) {
+                    $('#subscribeModal').modal('show')
+                } else {
+                    alert('Please input email')
+                }
+            }
+        </script>
     </body>
 
 </html>
